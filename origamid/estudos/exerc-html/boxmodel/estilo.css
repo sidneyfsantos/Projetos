@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+  min-width: 406px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: #fff;
+}
+.item {
+  background-color: #130b00;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
+p {
+  color: #b2b2b2;
+}
+span {
+  color: #febe01;
+}
+a {
+  color: #332200;
+  background-color: #febe01;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+}
+.mg {
+  margin: 10px 0;
+}

@@ -1,0 +1,94 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+/* Margins */
+.mt {
+  /* margem topo */
+  margin-top: 40px;
+}
+.mb {
+  /*margem inferior*/
+  margin-bottom: 40px;
+}
+.ml {
+  /*margem esquerda*/
+  margin-left: 40px;
+}
+.mr {
+  /*margem direita*/
+  margin-right: 40px;
+}
+.mh {
+  /*margem horizontal*/
+  margin: 0 40px;
+}
+.mv {
+  /*margem vertical*/
+  margin: 40px 0;
+}
+.ma {
+  /* margem todos lados */
+  margin: 40px;
+}
+/* Padding */
+.pt {
+  /* margem topo */
+  margin-top: 40px;
+}
+.pb {
+  /*margem inferior*/
+  margin-bottom: 40px;
+}
+.pl {
+  /*margem esquerda*/
+  margin-left: 40px;
+}
+.pr {
+  /*margem direita*/
+  margin-right: 40px;
+}
+.ph {
+  /*margem horizontal*/
+  margin: 0 40px;
+}
+.pv {
+  /*margem vertical*/
+  margin: 40px 0;
+}
+.pa {
+  /* margem todos lados */
+  margin: 40px;
+}
+
+body{
+  margin: 40px;
+}
+
+.hoje{
+  color: darkred;
+}
+.amanha{
+  color: darkblue;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 a{
+  color: seagreen;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  display: inline;
+  
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px;
+  background-color: aliceblue;
+}
+p{
+  font-size: 20px;
+}
