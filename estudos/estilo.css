@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  /* border: 2px solid red; */
+  position: relative;
+  margin: 40px auto;
+  background-color: rgb(223, 223, 223);
+  width: 300px;
+  height: 1000px;
+  
+}
+.amarela{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  /* top: 5px; */
+  right: 0px ;
+}
+
+.azul{  
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  
+}
