@@ -23,24 +23,26 @@ body {
 
 /* FORMATAÇÃO FOTO */
 
-/* .foto img{
+.foto img{
+  position: absolute;
+  /* width: 300px;
+  height: 200px; */
+  border: 1px solid red;
   
-  width: 300px;
-  height: 200px;
-  
-} */
+}
 .foto figcaption {
-  display: block;
+  /* display: inline; */
   position: relative;
   /* top: 0px; */
   /* display: none; */
   background-color: rgba(0, 0, 0, 0.2);
   /* width: 100%; */
-  top: -140px;
-  display: none;
+  top: 0px;
+  /* display: none; */
 }
 figure.foto {
-  border: 1px solid red;
-  display: inline-block;
+  position: relative;
+  /* border: 1px solid red; */
+  /* display: ; */
   /* background-color: rgba(0,0,0,0.2); */
 }
