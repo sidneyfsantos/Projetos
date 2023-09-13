@@ -1,0 +1,46 @@
+body {
+}
+/* FORMATAÇÃO LISTA */
+.menu ul {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  margin: 10px;
+  /* border: 1px solid red; */
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: gray;
+  padding: 10px;
+  margin: 2px;
+  color: #fff;
+}
+
+/* FORMATAÇÃO FOTO */
+
+/* .foto img{
+  
+  width: 300px;
+  height: 200px;
+  
+} */
+.foto figcaption {
+  display: block;
+  position: relative;
+  /* top: 0px; */
+  /* display: none; */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* width: 100%; */
+  top: -140px;
+  display: none;
+}
+figure.foto {
+  border: 1px solid red;
+  display: inline-block;
+  /* background-color: rgba(0,0,0,0.2); */
+}
