@@ -42,6 +42,7 @@ figure.fotos{
   border: 8px solid #fff;
   box-shadow: 1px 1px 2px #000;
   max-width: 600px;
+  max-height: 338px;
   position: relative;
   
 }
