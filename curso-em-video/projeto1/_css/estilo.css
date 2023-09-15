@@ -107,21 +107,3 @@ header h2{
   display: none;
 }
 
-=======
-/* ============================================ */
-
-div#main{
-  position: relative;
-  max-width: 960px;
-  background-color: rgb(247, 247, 247);
-  margin: 0 auto;
-  padding: 10px;
-}
-figure.foto-menu img{
-  position: absolute;
-  top: 20px;
-  left: 750px;
-  opacity: 1;
-  transition: opacity 1s;
-}
->>>>>>> c8828f5a9c32fbcde14e4b8d99373b892e340eb7
