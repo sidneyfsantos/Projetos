@@ -1,13 +1,14 @@
 @charset "UTF-8";
 body{
-  background-color: #fff;
+  background-color: #dddddd;
   color: rgba(0,0,0,1);
-    
+    margin: 0px;
+    padding: 0px;
   }
   
 p {
   text-align: justify;
-    text-indent: 40px;
+  text-indent: 40px;
 }
 
 /* FORMATAÇÃO LISTA */
@@ -15,7 +16,7 @@ p {
 .menu ul {
   position: absolute;
   top: 10px;
-  right: 200px;
+  right: 100px;
   margin: 20px;
   /* border: 1px solid red; */
 }
@@ -69,3 +70,39 @@ figure.fotos:hover figcaption{
   cursor: pointer;
   opacity: 1;
 }
+header{
+  position: relative;
+  border-bottom: 1px solid #606060;
+  height: 200px;
+  background:url(../_imagens/glass-logo-peq.jpg) no-repeat 10px 120px
+}
+header h1{
+  padding-left: 0px;
+  margin: 0;
+  padding: 20px 20px 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2{
+  margin: 0px 0px 10px 20px ;
+  color: #dddddd;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icone img{
+  position: absolute;
+  top: 70px;
+  left: 980px;
+
+}
+
+#interface{
+  background-color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+}
+.menu h1{
+  display: none;
+}
+
