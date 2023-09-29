@@ -1,14 +1,37 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="en">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./_css/estilo.css">
+  <title>Google Glass</title>
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body id="specs">
+
+  <div id="interface">
+    <header id="cabecalho">
+      <h1>Google Glass</h1>
+      <h2>A revolução do Google está chegando</h2>
+      <figure id="icone">
+        <img id="fotoMenu" src="./_imagens/glass-oculos-preto-med.png">       
+        <figcaption>
+          <p></p>
+        </figcaption>
+      </figure>
+      <nav class="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+          <li onmouseover="mudarFoto('./_imagens/home.png')" onmouseout="mudarFoto('_imagens/glass-oculos-preto-med.png')"><a href="./index.html">Home</a></li>
+          <li class="bt-specs" onmouseover="mudarFoto('./_imagens/especificacoes.png')" onmouseout="mudarFoto('_imagens/glass-oculos-preto-med.png')"><a href="./specs.html">Especificações</a></li>
+          <li onmouseover="mudarFoto('./_imagens/fotos.png')" onmouseout="mudarFoto('_imagens/glass-oculos-preto-med.png')"><a href="./fotos.html">Fotos</a></li>
+          <li onmouseover="mudarFoto('./_imagens/multimidia.png')" onmouseout="mudarFoto('_imagens/glass-oculos-preto-med.png')"><a href="./multimidia.html">Multimídia</a></li>
+          <li onmouseover="mudarFoto('./_imagens/contato.png')" onmouseout="mudarFoto('_imagens/glass-oculos-preto-med.png')"><a href="./fale-conosco.html">Fale conosco</a></li>
+        </ul>
+      </nav>
+    </header>
 
 Glass > Especificações
 Raio-X no Google Glass
@@ -19,5 +42,13 @@ Clique em qualquer área destacada da imagem para ter mais informações sobre o
 
 [AQUI ENTRA UMA IMAGEM]
 
-Copyright 2013 - by Gustavo Guanabara<
-Facebook | Twitter
+<footer id="rodape">
+  <p>Copyright 2013 - by Gustavo Guanabara</p>
+  <p><a href="www.facebook.com/cursoemvideo" target="_blank">Facebook</a> |
+  <a href="www.twitter.com/cursoemvideo" target="_blank">Twitter</a></p>
+</footer>
+
+<script src="./_javascript/funcoes.js"></script>
+</body>
+
+</html>
