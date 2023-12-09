@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Fira Sans,Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+img{
+  display: block;
+  width: 100%;
+}
