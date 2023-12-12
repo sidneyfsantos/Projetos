@@ -4,8 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
-  align-items: center;
-  
+  align-items: center;  
 }
 .introducao h1{
   font-size: 4.5rem;
