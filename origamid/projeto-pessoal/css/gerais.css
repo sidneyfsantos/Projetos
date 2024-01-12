@@ -12,6 +12,7 @@
 img{
   display: block;
   width: 100%;
+  height: auto;
 }
 .subtitulo{
   font-size: 8rem;
@@ -26,7 +27,7 @@ img{
     word-break: break-all;
     line-height: 1;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: initial !important;
   }
-  
+
 }
